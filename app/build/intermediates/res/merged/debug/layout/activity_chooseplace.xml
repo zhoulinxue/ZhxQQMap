@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="#f96d2f" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/chat_activity_backBtn"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left|center_vertical"
+                android:background="@null"
+                android:src="@drawable/title_back" />
+
+            <TextView
+                android:id="@+id/yudao_chat_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|center_vertical"
+                android:layout_weight="8"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textSize="22dp" />
+
+            <Button
+                android:id="@+id/place_btn"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:padding="8dp"
+                android:text="发送"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/chooseplace_bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/top_layout"
+        android:clickable="true" />
+
+    <ListView
+        android:id="@+id/place_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/chooseplace_bmapView"
+        android:layout_marginTop="20dp"
+        android:cacheColorHint="#00000000"
+        android:divider="#5C554F"
+        android:dividerHeight="2dp"
+        android:scrollbars="none" >
+    </ListView>
+
+</RelativeLayout><!-- From: file:/E:/zhouxue/studio-workplace/zhxQQMap/app/src/main/res/layout/activity_chooseplace.xml -->

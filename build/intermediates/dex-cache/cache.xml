@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\zhouxue\studio-workplace\zhxQQMap\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bb71d6cfe5166741a0a99e85471a8b90e97f5228">
+        <dex dex="E:\zhouxue\studio-workplace\zhxQQMap\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android-edce0fa715fca16f0196703074bbe179fefcae04.jar" />
+    </item>
+    <item
+        jar="E:\adt-bundle-windows-x86_64-20140321\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="E:\zhouxue\studio-workplace\zhxQQMap\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-7bfbcb2e75ed1e7bc44adb206d2e9c59e4d0941c.jar" />
+    </item>
+    <item
+        jar="E:\zhouxue\studio-workplace\zhxQQMap\app\libs\locSDK_6.03.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f97b00e2e5a384be96ab4d668fa3e2ff62cdbbb7">
+        <dex dex="E:\zhouxue\studio-workplace\zhxQQMap\app\build\intermediates\pre-dexed\debug\locSDK_6.03-c032dff7d91fbec8337dc45802d7973c9c57eb98.jar" />
+    </item>
+
+</items>
